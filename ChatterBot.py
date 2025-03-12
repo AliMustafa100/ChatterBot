@@ -8,7 +8,6 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
 nltk.download('punkt_tab')
 
-
 chatbot = ChatBot("Chatpot")
 
 trainer = ListTrainer(chatbot)
